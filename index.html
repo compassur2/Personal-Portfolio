@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2c59e8c4df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi I;m <span>Henry</span><br>Buntu from East Africa</h1>
+        </div>
+    </div>
+
+   </div>
+   <!---about-->
+   <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/User.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p> I am highly organized, punctual and reliable person who works well under pressure. 
+                    I am able to work in a team environment and on my own initiative. 
+                    I have a friendly disposition and a good sense of humor.
+                    I am a competent IT specialist well-versed in assisting End users with diverse computer systems, mobile devices and other peripheral equipment problems.
+                    A multi-talented at planning, Policy development, operational improvement and staff management procedures positively impacting overall morale and productivity.
+                    A Bachelor’s Degree holder in Business Information Technology (BIT) at University of Tourism, Technology and Business Studies. I always clove to achieve the highest standards, while willing to learn and discover more
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('Certifications')">Certifications</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Project management</span><br>project management methodologies</li>
+                            <li><span>Creative & Innovation</span><br>Ability to imagine,develop and express ideas</li>
+                            <li><span>Excellent communication</span><br>Confidence and active listening</li>
+                            <li><span>Complex problem solver</span><br>analysis, emotional intelligence, resilience and teamwork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Sales Director at Cilicom/Canal</li>
+                            <li><span>2022 - 2023</span><br>ICDL Trainer at Ethiopian- MOE , Rwanda-MoH, chambers of senate/parliament and University of Kigali</li>
+                            <li><span>2021 -2022</span><br>ICDL Trainer at UTB and Supreme Court and High Court Officials</li>
+                            <li><span>May 2021 to october 2021</span><br>IT Lab Attendant and IT Helpdesk Professional Intern at UTB</li>
+                            <li><span>May 2020 to October 2020 </span><br>IT Specialist at Let’s Embrace Studying Abroad Kigali-kabeza</li>
+                            <li><span>January 2020 to March 2020  </span><br>ICT Intern Teacher at White Dove Global Prep Kigali-Kacyiru</li>
+                            <li><span>2017 - 2018  </span><br>IT Technician at Pearl of Africa Hotel Kampala, Uganda</li>
+                            <li><span>2015 - 2017 </span><br>Receptionist front desk clerk-  at Zebra Hotel Masaka Uganda</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018 - 2021</span><br>Bachelor’s Degree in Business Information Technology (BIT) from UTB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>2023</span><br>Cybersecurity ,Networking, Big data Analytics and visualization, Web Services and API Programming from UR-AFRETEC and Carnegie Mellon University</li>
+                            <li><span>2019</span><br>International Computer Driving License Certified Trainer from ICDL Africa </li>
+                            <li><span>2018</span><br>Google Digital Skills for Marketing from The Open University UK</li>
+
+
+                        </ul>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--------services-->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My services</h1>  
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-universal-access"></i>
+            <h2>Sales Director</h2>
+            <p> Manages the activities of the sales department, set realistic targets, oversee the Mangers that report to them and work with staff to keep them motivated</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p> Shaping the experience between the user and the product</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h2>ICDL Trainer</h2>
+            <p> Conduct theory and practical sessions of ICDL & other computer related training programs of ICT</p>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+   </div>
+   <!-------portfolio-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-4.jpg">
+                <div class="layer">
+                    <h3>Online service</h3>
+                    <p>Pay Tv services more accessible and efficient to every one</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>UI/UX Design portfolio</h3>
+                    <p>Demonstrates skills and abilities</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work-6.jpg">
+                <div class="layer">
+                    <h3>Online Class</h3>
+                    <p> Courses conducted over the Internet</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!-------contact-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> buntuheny@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0780861886</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Henry Buntu Tayebwa(HBT).<i class="fa-solid fa-heart"></i></p>
+</div>
+   </div>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right= "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1bmy6tNhPmvTsZdnJhFNsPNYRj5PQ_IPo6fg0Ac0AcHBlGv9OrBeAuk3p_toGJmgJ0g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
